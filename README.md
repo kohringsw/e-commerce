@@ -23,10 +23,17 @@ Required Installation
 - npm install dotenv
 
 ## Usage
-npm install dotenv, create a .env file and update with the database name, your username and password. 
+1. npm install dotenv 
+2. Create a .env file 
+3. Update .env file with the database name, your username and password 
 - [See video tutorial on how to set up your .env file](https://drive.google.com/file/d/1SsJAjsy3_P6HX21FEqigwJHJL1pMv29k/view)
-See a complete walkthrough on how this application functions using the link to the video tutorial below:
-- [See E-Commerce video tutorial](https://drive.google.com/file/d/1TJJ8XPeHksgAOmIK4R7D5_xCovCt1r3q/view)
+
+4. mysql -u root -p (enter password)
+5. source db/schema.sql ("show databases;" see that it was created then quit mysql)
+6. npm run seed to seed data to your database so that you can test your routes
+7. npm start to open the server
+8. Test your routes in Insomnia Core
+- [See full video walk through of the E-Commerce application](https://drive.google.com/file/d/1TJJ8XPeHksgAOmIK4R7D5_xCovCt1r3q/view)
 
 ## Contributors
 Shelby Kohring
