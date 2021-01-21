@@ -5,7 +5,7 @@ const { Category, Product } = require("../../models");
 
 router.get("/", (req, res) => {
   // find all categories and associated products
-  Category.find({
+  Category.findAll({
     attributes: ["id", "category_name"],
     include: [
       {
@@ -62,7 +62,7 @@ router.post("/", (req, res) => {
 
 router.put("/:id", (req, res) => {
   // update a category by its `id` value
-  Category.update({
+  Category.update(req.body, {
     where: {
       id: req.params.id,
     },
