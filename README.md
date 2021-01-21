@@ -1,9 +1,10 @@
-# E-Commerce
+# e-commerce
 
 ## Description
 This application builds the backend for an e-commerce site using express.js, mysql2 and sequelize.
 
-- Link: [See the GitHub Repository for this application here](https://github.com/kohringsw/e-commerce.git)
+- [See full video walk through of the e-commerce application](https://drive.google.com/file/d/1TJJ8XPeHksgAOmIK4R7D5_xCovCt1r3q/view)
+- [See the GitHub Repository for this application here](https://github.com/kohringsw/e-commerce.git)
 
 ## Table of Contents
 - [Description](#description)
@@ -26,7 +27,7 @@ Required Installation
 1. npm install dotenv 
 2. Create a .env file 
 3. Update .env file with the database name, your username and password 
-  - [See video tutorial on how to set up your .env file](https://drive.google.com/file/d/1SsJAjsy3_P6HX21FEqigwJHJL1pMv29k/view)
+   - [See video tutorial on how to set up your .env file](https://drive.google.com/file/d/1SsJAjsy3_P6HX21FEqigwJHJL1pMv29k/view)
 
 4. mysql -u root -p (enter password)
 5. source db/schema.sql 
@@ -34,7 +35,7 @@ Required Installation
 7. npm run seed to seed data to your database so that you can test your routes
 8. npm start to open the server
 9. Test your routes in Insomnia Core
-  - [See full video walk through of the E-Commerce application](https://drive.google.com/file/d/1TJJ8XPeHksgAOmIK4R7D5_xCovCt1r3q/view)
+   - [See full video walk through of the e-commerce application](https://drive.google.com/file/d/1TJJ8XPeHksgAOmIK4R7D5_xCovCt1r3q/view)
 
 ## Contributors
 Shelby Kohring
