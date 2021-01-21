@@ -15,7 +15,7 @@ This application builds the backend for an e-commerce site using express.js, mys
 - [Questions](#questions)
 
 ## Installation Instructions
-### Required Installation
+Required Installation
 - npm install
 - npm install express
 - npm install sequelize
@@ -23,16 +23,16 @@ This application builds the backend for an e-commerce site using express.js, mys
 - npm install dotenv
 
 ## Usage
-### npm install dotenv, create a .env file and update with the database name, your username and password. 
-- Link [See video tutorial on how to set up your .env file](https://drive.google.com/file/d/1SsJAjsy3_P6HX21FEqigwJHJL1pMv29k/view)
-### See a complete walkthrough on how this application functions using the link to the video tutorial below:
-- Link: [See E-Commerce video tutorial here](https://drive.google.com/file/d/1TJJ8XPeHksgAOmIK4R7D5_xCovCt1r3q/view)
+npm install dotenv, create a .env file and update with the database name, your username and password. 
+- [See video tutorial on how to set up your .env file](https://drive.google.com/file/d/1SsJAjsy3_P6HX21FEqigwJHJL1pMv29k/view)
+See a complete walkthrough on how this application functions using the link to the video tutorial below:
+- [See E-Commerce video tutorial](https://drive.google.com/file/d/1TJJ8XPeHksgAOmIK4R7D5_xCovCt1r3q/view)
 
 ## Contributors
 Shelby Kohring
 
 ## Tests
-None
+Testing provided using Insomnia Core
 
 ## License 
 None
